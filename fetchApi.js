@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 const fetchApi = () => {
   const [motQuotes, setMotQuotes] = useState([]);
   const [randomnumber, setRandomnumber] = useState(1);
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
   const [hasError, setHasError] = useState(false)
 
   useEffect(() => {
